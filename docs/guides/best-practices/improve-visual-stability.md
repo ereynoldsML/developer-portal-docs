@@ -12,6 +12,8 @@ Visual stability refers to how well the content appears to be anchored to the re
 
 ## Overview
 
+## TEST HEADING
+
 For the ML2 Graphics API, `MLGraphicsFrameParamsEx` defines the frame parameters that are to be specified for the next rendered frame to define its characteristics. These next rendered frame characteristics in `MLGraphicsFrameParamsEx` are then supplied to `MLGraphicsBeginFrameEx()`.
 
 Among these frame characteristics, we have focus distance. Focus distance is the distance, in meters, to a defined virtual plane for the client content. Focus distance should be calculated as a positive distance from the Headset to the chosen virtual plane. Mathematically speaking, choose a point on this plane (usually an object of interest), then build a vector from the camera to the point. Then, use the dot product between the newly obtained vector and the camera’s forward vector. This will give the projected distance to the chosen plane and this is the focus distance to be passed in.
