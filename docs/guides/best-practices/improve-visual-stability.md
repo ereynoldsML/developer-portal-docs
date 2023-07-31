@@ -8,6 +8,8 @@ keywords: [Stability, Focus Distance, Stereo Convergence, Display, Time-warp]
 
 # Improve Visual Stability
 
+## ADDED TEST HEADER ##
+
 Visual stability refers to how well the content appears to be anchored to the real world when moving your device. Developers can improve how well their content appears stable by setting Magic Leap 2's Focus Distance(Native)/Stereo Convergence (Unity))
 
 ## Overview
